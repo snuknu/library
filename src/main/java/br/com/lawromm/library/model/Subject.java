@@ -31,7 +31,7 @@ public class Subject {
   private String description;
 
   @ManyToMany(mappedBy = "subjectList")
-  private List<Work> obras = new ArrayList<>();
+  private List<Work> workList = new ArrayList<>();
 
   public Subject(SubjectDtoCreate dto) {
     this.description = dto.getDescription();

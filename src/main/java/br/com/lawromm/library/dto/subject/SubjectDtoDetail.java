@@ -30,7 +30,7 @@ public class SubjectDtoDetail {
     this(
       entity.getId(),
       entity.getDescription(),
-      WorkDtoSummary.toList(entity.getObras())
+      WorkDtoSummary.toList(entity.getWorkList())
     );
   }
 

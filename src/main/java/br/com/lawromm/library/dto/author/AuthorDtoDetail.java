@@ -34,7 +34,7 @@ public class AuthorDtoDetail {
       author.getId(),
       author.getName(),
       author.getUri(),
-      WorkDtoSummary.toList(author.getObras())
+      WorkDtoSummary.toList(author.getWorkList())
     );
   }
 

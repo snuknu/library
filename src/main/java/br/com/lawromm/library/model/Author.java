@@ -33,7 +33,7 @@ public class Author {
   private String uri;
 
   @ManyToMany(mappedBy = "authorList")
-  private List<Work> obras = new ArrayList<>();
+  private List<Work> workList = new ArrayList<>();
 
   public Author(AuthorDtoCreate dto) {
     this.name = dto.getName();
