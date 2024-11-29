@@ -6,8 +6,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.2</version>
-		<relativePath />
+		<version>3.4.0</version>
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.lawromm</groupId>
 	<artifactId>library</artifactId>
@@ -16,6 +16,7 @@
 	<description>library Management Systems</description>
 	<properties>
 		<java.version>23</java.version>
+		<maven.compiler.proc>full</maven.compiler.proc>
 	</properties>
 	<dependencies>
 		<dependency>
