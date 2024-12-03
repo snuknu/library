@@ -1,10 +1,10 @@
 package br.com.lawromm.library.dto.author;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import br.com.lawromm.library.model.Author;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import java.util.List;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

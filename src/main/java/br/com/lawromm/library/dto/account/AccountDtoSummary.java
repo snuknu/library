@@ -1,10 +1,10 @@
 package br.com.lawromm.library.dto.account;
 
-import br.com.lawromm.library.model.Account;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.model.Account;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

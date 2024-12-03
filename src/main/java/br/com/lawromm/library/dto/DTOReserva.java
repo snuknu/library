@@ -1,11 +1,11 @@
 package br.com.lawromm.library.dto;
 
-import br.com.lawromm.library.dto.account.AccountDtoSummary;
-import br.com.lawromm.library.dto.work.WorkDtoSummary;
-import br.com.lawromm.library.model.Reserva;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.dto.account.AccountDtoSummary;
+import br.com.lawromm.library.dto.work.WorkDtoSummary;
+import br.com.lawromm.library.model.Reserva;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,5 +1,9 @@
 package br.com.lawromm.library.model;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 import br.com.lawromm.library.dto.address.AddressDtoCreate;
 import br.com.lawromm.library.dto.address.AddressDtoUpdate;
 import jakarta.persistence.Entity;
@@ -7,10 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.IdClass;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

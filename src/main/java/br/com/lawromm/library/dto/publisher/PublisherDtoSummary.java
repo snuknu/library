@@ -1,8 +1,8 @@
 package br.com.lawromm.library.dto.publisher;
 
-import br.com.lawromm.library.model.Publisher;
 import java.util.List;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.model.Publisher;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

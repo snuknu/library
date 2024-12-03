@@ -1,13 +1,13 @@
 package br.com.lawromm.library.dto.work;
 
+import java.time.LocalDateTime;
+import java.util.List;
 import br.com.lawromm.library.dto.author.AuthorDtoUpdate;
 import br.com.lawromm.library.dto.publisher.PublisherDtoUpdate;
 import br.com.lawromm.library.dto.subject.SubjectDtoUpdate;
 import br.com.lawromm.library.enumeration.WorkType;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import java.time.LocalDateTime;
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

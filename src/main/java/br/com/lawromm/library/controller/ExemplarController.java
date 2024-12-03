@@ -1,10 +1,5 @@
 package br.com.lawromm.library.controller;
 
-import br.com.lawromm.library.dto.DTOExemplar;
-import br.com.lawromm.library.model.Exemplar;
-import br.com.lawromm.library.model.IdExemplar;
-import br.com.lawromm.library.repository.ExemplarRepository;
-import jakarta.transaction.Transactional;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+import br.com.lawromm.library.dto.DTOExemplar;
+import br.com.lawromm.library.model.Exemplar;
+import br.com.lawromm.library.model.IdExemplar;
+import br.com.lawromm.library.repository.ExemplarRepository;
+import jakarta.transaction.Transactional;
 
 @RestController
 @RequestMapping("/exemplar")

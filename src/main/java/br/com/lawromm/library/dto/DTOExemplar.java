@@ -1,10 +1,10 @@
 package br.com.lawromm.library.dto;
 
-import br.com.lawromm.library.enumeration.SituacaoExemplar;
-import br.com.lawromm.library.model.Exemplar;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.enumeration.SituacaoExemplar;
+import br.com.lawromm.library.model.Exemplar;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

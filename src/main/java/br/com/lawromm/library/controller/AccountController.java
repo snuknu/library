@@ -1,13 +1,5 @@
 package br.com.lawromm.library.controller;
 
-import br.com.lawromm.library.dto.account.AccountDtoCreate;
-import br.com.lawromm.library.dto.account.AccountDtoDetail;
-import br.com.lawromm.library.dto.account.AccountDtoSummary;
-import br.com.lawromm.library.dto.account.AccountDtoUpdate;
-import br.com.lawromm.library.model.Account;
-import br.com.lawromm.library.repository.AccountRepository;
-import jakarta.transaction.Transactional;
-import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +13,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+import br.com.lawromm.library.dto.account.AccountDtoCreate;
+import br.com.lawromm.library.dto.account.AccountDtoDetail;
+import br.com.lawromm.library.dto.account.AccountDtoSummary;
+import br.com.lawromm.library.dto.account.AccountDtoUpdate;
+import br.com.lawromm.library.model.Account;
+import br.com.lawromm.library.repository.AccountRepository;
+import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/account")

@@ -1,13 +1,5 @@
 package br.com.lawromm.library.controller;
 
-import br.com.lawromm.library.dto.work.WorkDtoCreate;
-import br.com.lawromm.library.dto.work.WorkDtoDetail;
-import br.com.lawromm.library.dto.work.WorkDtoSummary;
-import br.com.lawromm.library.dto.work.WorkDtoUpdate;
-import br.com.lawromm.library.model.Work;
-import br.com.lawromm.library.repository.WorkRepository;
-import jakarta.transaction.Transactional;
-import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +13,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+import br.com.lawromm.library.dto.work.WorkDtoCreate;
+import br.com.lawromm.library.dto.work.WorkDtoDetail;
+import br.com.lawromm.library.dto.work.WorkDtoSummary;
+import br.com.lawromm.library.dto.work.WorkDtoUpdate;
+import br.com.lawromm.library.model.Work;
+import br.com.lawromm.library.repository.WorkRepository;
+import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/work")

@@ -1,8 +1,8 @@
 package br.com.lawromm.library.dto.address;
 
-import br.com.lawromm.library.model.Address;
 import java.util.List;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.model.Address;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

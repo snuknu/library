@@ -1,9 +1,9 @@
 package br.com.lawromm.library.dto.work;
 
-import br.com.lawromm.library.dto.author.AuthorDtoSummary;
-import br.com.lawromm.library.model.Work;
 import java.util.List;
 import java.util.stream.Collectors;
+import br.com.lawromm.library.dto.author.AuthorDtoSummary;
+import br.com.lawromm.library.model.Work;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

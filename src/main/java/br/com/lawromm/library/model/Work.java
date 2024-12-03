@@ -1,5 +1,10 @@
 package br.com.lawromm.library.model;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 import br.com.lawromm.library.dto.work.WorkDtoCreate;
 import br.com.lawromm.library.dto.work.WorkDtoUpdate;
 import br.com.lawromm.library.enumeration.WorkType;
@@ -13,11 +18,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

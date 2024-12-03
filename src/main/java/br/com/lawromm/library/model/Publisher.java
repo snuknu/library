@@ -1,14 +1,14 @@
 package br.com.lawromm.library.model;
 
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 import br.com.lawromm.library.dto.publisher.PublisherDtoCreate;
 import br.com.lawromm.library.dto.publisher.PublisherDtoUpdate;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,8 +1,8 @@
 package br.com.lawromm.library.enumeration;
 
-import br.com.lawromm.library.config.MessageSourceConfiguration;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
+import br.com.lawromm.library.config.MessageSourceConfiguration;
 
 public enum WorkType {
   BOOK("enum.typeWork.book"),

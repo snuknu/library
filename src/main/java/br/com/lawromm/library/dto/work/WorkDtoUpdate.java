@@ -1,8 +1,8 @@
 package br.com.lawromm.library.dto.work;
 
+import java.util.List;
 import br.com.lawromm.library.dto.subject.SubjectDtoUpdate;
 import jakarta.validation.constraints.NotNull;
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
